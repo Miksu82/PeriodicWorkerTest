@@ -8,7 +8,4 @@ Rep instructions
 5. Nothing is logged anymore
 
 Expected result: "Periodic worker working..." is logged everytime
-
-```
-adb shell cmd jobscheduler run -f com.example.periodicworkertest 0 is called
-```
+`adb shell cmd jobscheduler run -f com.example.periodicworkertest 0` is called
